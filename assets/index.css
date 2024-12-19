@@ -1,0 +1,24 @@
+body {
+    background:rgb(32, 42, 44);
+    font-size:1.5rem;
+    color:white;
+    text-align:center;
+}
+
+#container {
+    margin-top:20vh;
+}
+
+button {
+    background:rgb(199, 198, 198);
+    font-size:1.5rem;
+    padding:1%;
+    border-radius:25px;
+    cursor:pointer;
+    transition:0.5s;
+}
+
+button:hover {
+    scale:1.1;
+    filter:brightness(120%);
+}

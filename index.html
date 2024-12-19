@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/index.css" />
+    <script src="assets/index.js"></script>
+    <title>Multiple Condition Waitt</title>
+  </head>
+  <body>
+    <div id="container">
+      <button onclick="doSomething();">Click Me To Do Something!</button>
+      <div id="condition">
+        <h4>Click all the button to confirm all conditions</h4>
+        <button onclick="confirmCondition(1);">Condition 1</button>
+        <button onclick="confirmCondition(2);">Condition 2</button>
+        <button onclick="confirmCondition(3);">Condition 3</button>
+        <br/><br/>
+        <button onclick="reset(); doSomething();">Reset all Conditions</button>
+      </div>
+      <div id="output"></div>
+    </div>
+  </body>
+</html>
